@@ -66,19 +66,6 @@ function App() {
             </tr>
           ))}
         </tbody>
-        {/* {% for product in products %}
-        <tr>
-            <td>{{ product.id }}</td>
-            <td>{{ product.name }}</td>
-            <td>{{ product.price }}</td>
-            <td>
-                {% for image in product.images %}
-                    <img src="{{image}}" width="50" />
-                {% endfor %}
-            </td>
-            <!-- <td> <img src="{{ post.profile }}" width="50" /></td> -->
-        </tr>
-        {% endfor %} */}
       </table>
     </>
   );
